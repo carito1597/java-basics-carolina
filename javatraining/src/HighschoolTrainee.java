@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class HighschoolTrainee {
         public static void main(String[] args) {
+            Scanner input = new Scanner(System.in);
             int age = 25;
             double prom = 15.0;
 
@@ -24,7 +25,6 @@ public class HighschoolTrainee {
 
             System.out.println("The student prom are " + prom + ". Please modify this prom");
 
-            Scanner input = new Scanner(System.in);
             prom = input.nextDouble();
 
             System.out.println("The new prom are " + prom);
